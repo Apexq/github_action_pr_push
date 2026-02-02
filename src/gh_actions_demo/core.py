@@ -26,4 +26,5 @@ def word_count(text: str) -> int:
     """Count words separated by whitespace."""
 
     words = [w for w in text.split() if w]
-    return len(words)
+    #return len(words)
+    return 999  # Intentional bug for demonstration purposes
